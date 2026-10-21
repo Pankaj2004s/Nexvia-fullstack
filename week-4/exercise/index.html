@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Week 4: Async JavaScript and Fetch API</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="wrapper">
+      <h1>Async JavaScript and the Fetch API</h1>
+
+      <section class="card">
+        <h2>Part 1: Filter challenge</h2>
+        <p>
+          Affordable (price &lt;= 100) and in-stock products from a local array:
+        </p>
+        <ul id="localList"></ul>
+      </section>
+
+      <section class="card">
+        <h2>Part 2: Fetch products from an API</h2>
+        <p id="status">Loading...</p>
+        <ul id="productList"></ul>
+      </section>
+
+      <section class="card">
+        <h2>Part 3: Order form</h2>
+        <form id="orderForm">
+          <label for="fullName">Full Name</label>
+          <input type="text" id="fullName" name="fullName" required />
+          <button type="submit">Place Order</button>
+        </form>
+        <p id="message"></p>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
