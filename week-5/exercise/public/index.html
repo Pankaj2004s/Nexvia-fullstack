@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Week 5: Full-Stack Task App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="wrapper">
+      <h1>Full-Stack Task App</h1>
+
+      <section class="card">
+        <h2>Create a task</h2>
+        <form id="taskForm">
+          <label for="title">Task title</label>
+          <input
+            type="text"
+            id="title"
+            name="title"
+            placeholder="Learn fetch API"
+          />
+          <button type="submit" id="saveBtn">Save Task</button>
+        </form>
+        <p id="status" class="status"></p>
+      </section>
+
+      <section class="card">
+        <h2>Saved tasks</h2>
+        <ul id="taskList"></ul>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
