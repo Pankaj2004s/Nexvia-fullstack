@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Week 2 Exercise: Filter and Submit</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="wrapper">
+      <h1>Filter Available Products and Handle Submit</h1>
+
+      <section class="card">
+        <h2>Affordable, in-stock products</h2>
+        <ul id="productList"></ul>
+      </section>
+
+      <section class="card">
+        <h2>Order form</h2>
+        <form id="orderForm">
+          <label for="fullName">Full Name</label>
+          <input type="text" id="fullName" name="fullName" required />
+          <button type="submit">Place Order</button>
+        </form>
+        <p id="message"></p>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
